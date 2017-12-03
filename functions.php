@@ -432,3 +432,27 @@ function twentysixteen_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
+
+// Addind Bootstrap 3 
+
+function theme_styles() {
+	
+		wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/css/bootstrap.css' );
+		wp_enqueue_style( 'main_css', get_template_directory_uri() . '/css/desktop.css' );
+		wp_enqueue_style( 'main_css', get_template_directory_uri() . '/css/mobile.css' );
+		wp_enqueue_style( 'main_css', get_template_directory_uri() . '/css/tablet.css' );
+	
+	}
+	
+	add_action( 'wp_enqueue_scripts', 'theme_styles');
+
+function theme_js() {
+	
+		global $wp_scripts;
+	
+		wp_enqueue_script( 'bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
+		wp_enqueue_script( 'my_custom_js', get_template_directory_uri() . '/js/scripts.js');
+	
+	}
+	
+	add_action( 'wp_enqueue_scripts', 'theme_js');

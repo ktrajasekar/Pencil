@@ -7,3 +7,5 @@ Wordpress Theme for Personal Blog - Developed using Twenty Sixteen
 
 Menu - https://github.com/adchsm/Slidebars - MIT license 
 
+http://crunchify.com/how-to-create-social-sharing-button-without-any-plugin-and-script-loading-wordpress-speed-optimization-goal/
+

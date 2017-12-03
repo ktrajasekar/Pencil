@@ -48,7 +48,7 @@
 		<div class="col-sm-8" class="text-right">
 			<ul class="socialIcons">
 				<li>SHARE US</li>
-				<li><a href=""><img src="<?php bloginfo('template_url'); ?>/images/facebook.png" alt="Facebook"></a></li>
+				<li><a class="icon icon-facebook icon-replacement" href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=<?php echo urlencode(get_permalink()); ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/facebook.png" alt="Facebook"></a></li>
 				<li><a href=""><img src="<?php bloginfo('template_url'); ?>/images/twitter.png" alt="Twitter"></a></li>
 				<li><a href=""><img src="<?php bloginfo('template_url'); ?>/images/linkedin.png" alt="Linkedin"></a></li>
 			</ul>

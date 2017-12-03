@@ -1,6 +1,9 @@
 # Pencil
 Wordpress Theme for Personal Blog - Developed using Twenty Sixteen
 
-##Plugins
+![Pencil Theme Screenshot](https://techeasy.files.wordpress.com/2017/12/pencil-e1512334198553.jpg)
 
-https://wordpress.org/plugins/sassy-social-share/#installation
+## Plugins
+
+Menu - https://github.com/adchsm/Slidebars - MIT license 
+
